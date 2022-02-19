@@ -13,6 +13,8 @@ In [Programs](#programs) are some tests for some exercises or other things.
 ### Programs
 - [`helloworld.c`](src/helloworld.c) It's just a hello world.
 - [`chars.c`](src/tests/chars.c) Char experiments.
+- [`datatypes.c`](src/tests/datatypes.c) Data type application examples.
 
 ### Sources
-[Bro Code playlist](https://youtube.com/playlist?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe)
+[Bro Code 
+playlist](https://youtube.com/playlist?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe)

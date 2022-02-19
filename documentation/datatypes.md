@@ -11,9 +11,11 @@
 - `int` 4 bytes (-2,147,483 to 2,147,483,647) `%d` or `%u` if unsigned. It's implicity a long
 - `long` 8 bytes (a lot to a lot) `%lld` or `%llu` if unsigned
 
+For some examples, see [`datatypes.c`](../src/tests/datatypes.c)
+
 If you write something out of the limits of a data type, it starts again from the lowest value, like a sinus function.
 
-> Pro tip: if you use the `unsigned` keyword, you can only store positive numbers on that variable. By default they are signed.
+Pro tip: if you use the `unsigned` keyword, you can only store positive numbers on that variable. By default they are signed.
 
 <br>
 
