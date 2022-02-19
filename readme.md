@@ -5,16 +5,19 @@ In [Documentation](#documentation) are the syntax, commands and other stuff that
 In [Programs](#programs) are some tests for some exercises or other things.
 
 ### Documentation
+
 - [Comands](/documentation/commands.md)
 - [Formatters](/documentation/formatters.md)
 - [Data types](documentation/datatypes.md)
 
 
 ### Programs
+
 - [`helloworld.c`](src/helloworld.c) It's just a hello world.
 - [`chars.c`](src/tests/chars.c) Char experiments.
 - [`datatypes.c`](src/tests/datatypes.c) Data type application examples.
 
 ### Sources
-[Bro Code 
-playlist](https://youtube.com/playlist?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe)
+
+- Bro Code [youtube playlist](https://youtube.com/playlist?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe)
+- Microsoft's [get started](https://code.visualstudio.com/docs/cpp/config-linux) on linux
