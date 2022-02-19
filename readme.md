@@ -7,7 +7,7 @@ In [Programs](#programs) are some tests for some exercises or other things.
 ### Documentation
 
 - [Commands](/documentation/commands.md)
-- [Format specifiers](/documentation/formatters.md)
+- [Format specifiers](/documentation/formatspecifiers.md)
 - [Data types](documentation/datatypes.md)
 - [Libraries](documentation/libraries.md)
 
