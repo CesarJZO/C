@@ -6,18 +6,19 @@ In [Programs](#programs) are some tests for some exercises or other things.
 
 ### Documentation
 
+- [Syntax](documentation/syntax.md)
 - [Commands](/documentation/commands.md)
-- [Format specifiers](/documentation/formatspecifiers.md)
-- [Data types](documentation/datatypes.md)
+- [Format specifiers](/documentation/format_specifiers.md)
+- [Data types](documentation/data_types.md)
 - [Libraries](documentation/libraries.md)
 
 
 ### Programs
 
-- [`helloworld.c`](src/helloworld.c) It's just a hello world.
-- [`chars.c`](src/tests/chars.c) Char experiments.
-- [`datatypes.c`](src/tests/datatypes.c) Data type application examples.
-- [`formatspecifiers.c`](./src/tests/formatspecifiers.c) Formatting some numbers.
+- [`HelloWorld.c`](src/HelloWorld.c) It's just a hello world.
+- [`Chars.c`](src/tests/Chars.c) Char experiments.
+- [`DataTypes.c`](src/tests/DataTypes.c) Data type application examples.
+- [`FormatSpecifiers.c`](./src/tests/DataTypes.c) Formatting some numbers.
 
 ### Sources
 
