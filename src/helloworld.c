@@ -4,7 +4,7 @@
  */
 int main()
 {
-    char name[] = "César";
-    printf("Hello, %s!\n", name);
+    printf("Hello, world!");
+    
     return 0;
 }
