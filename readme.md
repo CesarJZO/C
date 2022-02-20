@@ -7,11 +7,10 @@ In [Programs](#programs) are some tests for some exercises or other things.
 ### Documentation
 
 - [Syntax](documentation/syntax.md)
-- [Commands](/documentation/commands.md)
 - [Format specifiers](/documentation/format_specifiers.md)
 - [Data types](documentation/data_types.md)
 - [Libraries](documentation/libraries.md)
-
+- [Commands](/documentation/commands.md)
 
 ### Programs
 
@@ -19,6 +18,7 @@ In [Programs](#programs) are some tests for some exercises or other things.
 - [`Chars.c`](src/tests/Chars.c) Char experiments.
 - [`DataTypes.c`](src/tests/DataTypes.c) Data type application examples.
 - [`FormatSpecifiers.c`](./src/tests/DataTypes.c) Formatting some numbers.
+- [`Inputs.c`](src/tests/Inputs.c) Prints prompts asking things.
 
 ### Sources
 
