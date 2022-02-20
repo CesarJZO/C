@@ -19,6 +19,8 @@ In [Programs](#programs) are some tests for some exercises or other things.
 - [`DataTypes.c`](src/tests/DataTypes.c) Data type application examples.
 - [`FormatSpecifiers.c`](./src/tests/DataTypes.c) Formatting some numbers.
 - [`Inputs.c`](src/tests/Inputs.c) Prints prompts asking things.
+- [`Maths.c`](src/tests/Maths.c) Math functions examples.
+- [`Circle.c`](src/Circle.c) Circle's area and circumference calculator.
 
 ### Sources
 

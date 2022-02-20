@@ -2,7 +2,7 @@
 
 ### Variables
 
-*`keyword`* *`type`* *`name`* `=` *`value`* 
+*`specifier`* *`type`* *`name`* `=` *`value`* 
 
 Example
 
