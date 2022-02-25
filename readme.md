@@ -21,6 +21,8 @@ In [Programs](#programs) are some tests for some exercises or other things.
 - [`Inputs.c`](src/tests/Inputs.c) Prints prompts asking things.
 - [`Maths.c`](src/tests/Maths.c) Math functions examples.
 - [`Circle.c`](src/Circle.c) Circle's area and circumference calculator.
+- [`GuessNumber.c`](src/games/GuessNumber.c) You need to guess the number I'm thinking.
+- [`MinesAvoider.c`](src/games/MinesAvoider.c) Avoid the mines!
 
 ### Sources
 
