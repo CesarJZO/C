@@ -14,15 +14,16 @@ In [Programs](#programs) are some tests for some exercises or other things.
 
 ### Programs
 
-- [`HelloWorld.c`](src/HelloWorld.c) It's just a hello world.
-- [`Chars.c`](src/tests/Chars.c) Char experiments.
-- [`DataTypes.c`](src/tests/DataTypes.c) Data type application examples.
-- [`FormatSpecifiers.c`](./src/tests/DataTypes.c) Formatting some numbers.
-- [`Inputs.c`](src/tests/Inputs.c) Prints prompts asking things.
-- [`Maths.c`](src/tests/Maths.c) Math functions examples.
-- [`Circle.c`](src/Circle.c) Circle's area and circumference calculator.
-- [`GuessNumber.c`](src/games/GuessNumber.c) You need to guess the number I'm thinking.
-- [`MinesAvoider.c`](src/games/MinesAvoider.c) Avoid the mines!
+- [`helloworld.c`](helloworld.c) It's just a hello world.
+- [`chars.c`](tests/chars.c) Char experiments.
+- [`datatypes.c`](tests/datatypes.c) Data type application examples.
+- [`formatspecifiers.c`](./tests/formatspecifiers.c) Formatting some numbers.
+- [`inputs.c`](tests/inputs.c) Prints prompts asking things.
+- [`maths.c`](tests/maths.c) Math functions examples.
+- [`circle.c`](circle.c) Circle's area and circumference calculator.
+- [`guessnumber.c`](./games/guessnumber.c) You need to guess the number I'm thinking.
+- [`minesavoider.c`](games/minesavoider.c) Avoid the mines!
+- [`even.c`](tests/even.c) The very first time I use arguments
 
 ### Sources
 
