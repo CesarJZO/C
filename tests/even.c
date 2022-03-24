@@ -7,7 +7,7 @@ bool iseven(int n)
     return n % 2 == 0;
 }
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
     int n;
     for (int i = 1; i < argc; i++)
