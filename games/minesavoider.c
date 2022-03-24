@@ -36,7 +36,7 @@ char map[LENGTH][LENGTH];
 #pragma endregion
 
 #pragma region Game objects
-const char MINE = '*';
+const char MINE =  '*';
 const char BONUS = '@';
 const char PATH = '-';
 const char PLAYER = 'P';
