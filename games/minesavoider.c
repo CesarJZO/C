@@ -3,6 +3,7 @@
 #include <time.h>
 #include <stdbool.h>
 #include <ctype.h>
+#include "../colors.h"
 
 #pragma region Global variables
 /**
@@ -32,7 +33,7 @@ bool win;
 /**
  * A 2D char array representing the map area of the game
  */
-char map[LENGTH][LENGTH];
+char map[10][10];
 #pragma endregion
 
 #pragma region Game objects
@@ -123,12 +124,12 @@ int main()
     } while (!collision);
     if (win)
     {
-        printf("You win!\n");
+        printf(GREEN "You win!\n" RESET);
         return 0;
     }
     else
     {
-        printf("You lose.\n");
+        printf(RED "You lose.\n" RESET);
         return 1;
     }
 }
