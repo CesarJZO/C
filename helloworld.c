@@ -1,9 +1,16 @@
 #include <stdio.h>
+#include "colors.h"
+#include "random.h"
 /**
- * @author César Zárate
+ * Shows a HelloWorld message depending on the arguments
+ * @author CésarJZO
  */
-int main()
+int main(int length, char const **args)
 {
-    printf("Hello, world!\n");
+    setseed();
+    if (length <= 1)
+        printf("Hello, world!\n");
+    else for (int i = 1; i < length; i++)
+        printf("%sHello, %s!\n", randomcolor(), args[i]);
     return 0;
 }
