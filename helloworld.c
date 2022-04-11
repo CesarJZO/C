@@ -12,9 +12,6 @@ int main(int length, char const **args)
     if (length <= 1)
         printf("Hello, world!\n");
     else for (int i = 1; i < length; i++)
-    {
-        char *color = randomcolor();
-        printf("%sHello, %s!\n", color, args[i]);
-    }
+        printf("%sHello, %s!\n", randomcolor(), args[i]);
     return 0;
 }

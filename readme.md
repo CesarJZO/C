@@ -27,3 +27,4 @@ In [Programs](#programs) are some tests for some exercises or other things.
 
 - Bro Code's [youtube playlist](https://youtube.com/playlist?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe)
 - Microsoft's [get started](https://code.visualstudio.com/docs/cpp/config-linux) on linux
+- DevDocs' pretty cool [documentation](https://devdocs.io/c/)
