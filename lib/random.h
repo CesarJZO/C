@@ -14,7 +14,7 @@ void setseed()
  * @param max The maximum limit (inclusive)
  * @return A random integer between 0 and the specified max limit
  */
-int randomnum(int max)
+int randomint(int max)
 {
     return rand() % (max + 1);
 }

@@ -10,6 +10,10 @@ bool iseven(int n)
     return n % 2 == 0;
 }
 
+/**
+ * The very first time I use arguments
+ * @author CésarJZO
+ */
 int main(int argc, char *argv[])
 {
     int n;

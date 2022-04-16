@@ -3,7 +3,7 @@
 #include <time.h>
 #include <stdbool.h>
 #include <ctype.h>
-#include "../libraries/colors.h"
+#include "../lib/colors.h"
 
 #pragma region Global variables
 /**
