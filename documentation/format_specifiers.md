@@ -8,8 +8,11 @@ It uses a `%` and a character to specify the format.
 - `%f` float
 - `%lf` long float (double)
 - `&u` unsigned
-- `%d` integer
 - `%l` long
+- `%d` integer
+- `%o` octal
+- `%x` hexadecimal
+- `%%` For `%` itself
 
 
 ## Formatting numbers
