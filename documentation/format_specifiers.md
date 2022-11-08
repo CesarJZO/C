@@ -7,7 +7,9 @@ It uses a `%` and a character to specify the format.
 - `%s` string (array of characters)
 - `%f` float
 - `%lf` long float (double)
+- `&u` unsigned
 - `%d` integer
+- `%l` long
 
 
 ## Formatting numbers

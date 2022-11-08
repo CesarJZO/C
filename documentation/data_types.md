@@ -2,13 +2,13 @@
 
 ## Supported data types
 
+- `int` 4 bytes (-2,147,483 to 2,147,483,647) `%d` or `%u` if unsigned. It's implicity a long
 - `char` single character `%c`
 - `char[]` *a.k.a.* string, but actually is an array of integers `%s`
 - `float` 4 bytes for 32 bits of precision `%f`
 - `double` 8 bytes for 64 bits of precision `%lf`
-- `bool` 1 byte %d
+- `bool` 1 byte `%d`
 - `short` 2 bytes (-32,768 to 32,767) `%d`
-- `int` 4 bytes (-2,147,483 to 2,147,483,647) `%d` or `%u` if unsigned. It's implicity a long
 - `long` 8 bytes (a lot to a lot) `%lld` or `%llu` if unsigned
 
 For some examples, see [`datatypes.c`](../src/tests/datatypes.c)
