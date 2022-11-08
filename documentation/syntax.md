@@ -1,6 +1,6 @@
-## Syntax
+# Syntax
 
-### Variables
+## Variables
 
 *`specifier`* *`type`* *`name`* `=` *`value`* 
 
@@ -10,7 +10,7 @@ Example
 int number = 69;
 ```
 
-### Constants
+## Constants
 
 `const` *`type`* *`name`* `=` *`value`* 
 
@@ -20,7 +20,7 @@ Example
 const double PI = 3.14159;
 ```
 
-### Functions
+## Functions
 
 *`type`* *`name`* `(` *`params...`* `)` `{ ... }`
 

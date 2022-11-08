@@ -1,4 +1,4 @@
-## Format specifiers
+# Format specifiers
 
 Defines and formats a type of data to be displayed.  
 It uses a `%` and a character to specify the format.
@@ -9,19 +9,17 @@ It uses a `%` and a character to specify the format.
 - `%lf` long float (double)
 - `%d` integer
 
-<br>
 
-### Formatting numbers
+## Formatting numbers
 
-`%x.yc` Sets how a floating point or integer, or a number in general should be displayed, where:
-
+`%±x.yc` Sets how a floating point or integer, or a number in general should be displayed, *where*:
 
 - `x` is the number (or size) of digits. Implicitly has a right align
 - `y` is the number of decimals
 - `c` is the format specifier
-- `%-` for left align
+- `±` specifies the alignment, `-` meaning left and `+` right
 
-### Example of floats
+## Example of floats
 
 ```c
 #include <stdio.h>
@@ -42,9 +40,7 @@ Price 1:    59.99
 Price 2:     5.50
 ```
 
-<br>
-
-### Example of integers
+## Example of integers
 
 ```c
 #include <stdio.h>

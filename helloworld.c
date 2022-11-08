@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <colors.h>
+#include "./include/colors.h"
 
 /**
  * Shows a HelloWorld message depending on the arguments

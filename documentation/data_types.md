@@ -1,9 +1,9 @@
-## Data types
+# Data types
 
-### Supported data types
+## Supported data types
 
 - `char` single character `%c`
-- `char[]` a.k.a. string, but actually is an array of integers `%s`
+- `char[]` *a.k.a.* string, but actually is an array of integers `%s`
 - `float` 4 bytes for 32 bits of precision `%f`
 - `double` 8 bytes for 64 bits of precision `%lf`
 - `bool` 1 byte %d
@@ -17,37 +17,35 @@ If you write something out of the limits of a data type, it starts again from th
 
 Pro tip: if you use the `unsigned` keyword, you can only store positive numbers on that variable. By default they are signed.
 
-<br>
-
-### Bools
+## Booleans
 
 Booleans need to include `<stdbool.h>` in order to work.
 
 ```c
 #include <stdbool.h>
-int main() {
+
+int main()
+{
   bool sheLovesMe = false;
   return 1;
 }
 ```
 
-<br>
-
-### Chars
+## Chars
 
 Since C is not object-oriented, it doesn't have a string type, so you need to use a char array.
 
 ```c
-int main {
-  char name[] = "César"
-}
+char name[] = "César"
 ```
 
 You can use formatters to show a char as a number or an *ASCII* character, but it has to be a number between -128 to 127 (see [`chars.c`](../src/tests/chars.c))
 
 ```c
 #include <stdio.h>
-int main() {
+
+int main()
+{
   char c = 69;
   printf("Number: %d\n", c);
   printf("Character: %c\n", c);

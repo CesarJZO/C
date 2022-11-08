@@ -1,6 +1,6 @@
-## Utilities
+# Utilities
 
-### [Coloring output](https://stackoverflow.com/questions/3219393/stdlib-and-colored-output-in-c)
+## Coloring output
 
 Examples
 
@@ -14,7 +14,7 @@ Examples
 #define ANSI_COLOR_RESET   "\x1b[0m"
 ```
 
-Using without `#define`
+Using them without `#define`
 
 ```c
 void showoutput(char *message)
@@ -24,30 +24,34 @@ void showoutput(char *message)
 }
 ```
 
-### [Add executables to PATH](https://askubuntu.com/questions/322772/how-do-i-add-an-executable-to-my-search-path)
+## Add executables to PATH
 
-1. Create a folder
+1. Create a folder to store the executable files
 
 ```bash
-$ mkdir ~/bin
+$ mkdir ~/.bin
 ```
 
 2. Add that folder to PATH for all sessions of Bash
 
 ```bash
-$ nano ~/.bashrc
 $ vim ~/.bashrc
 ```
 
 ```bash
 # Add this to the end of .bashrc file
-export PATH="~/bin:$PATH"
+export PATH="~/.bin:$PATH"
 ```
 
-3. Add either the executable files or symlinks to them into ~/bin
+3. Add either the executable files or symlinks to them into `~/.bin`
 
 4. Restart terminal session or run this:
 
 ```bash
 $ source ~/.bashrc
 ```
+
+## References
+
+- [stdlib and colored output in C](https://stackoverflow.com/questions/3219393/stdlib-and-colored-output-in-c) from Stack Overflow
+- [How do I add an executable to my search path?](https://askubuntu.com/questions/322772/how-do-i-add-an-executable-to-my-search-path) from Ask Ubuntu
