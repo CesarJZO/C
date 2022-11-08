@@ -13,10 +13,9 @@ The first think you'd like to do is a *hello world* program, you can check mine 
 
 int main()         // Define a function named main
 {                  // Statements are enclosed in braces
-    printf("hello, world"); /* main calls library function printf
-                               to print this sequence of characters;
-                               \n represents the new line character 
-                            */
+    printf("hello, world\n"); /* main calls library function printf
+                                 to print this sequence of characters;
+                                 \n represents the new line character */
 }
 ```
 
@@ -32,6 +31,12 @@ It will generate an `a.out` file, to execute it use this command
 
 ```bash
 ./a.out
+```
+
+Or `a.exe` on Windows
+
+```powershell
+.\a.exe
 ```
 
 ## Documentation
