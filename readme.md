@@ -6,10 +6,32 @@ In [Programs](#programs) are some tests for some exercises or other things.
 
 ## Getting started
 
+The first think you'd like to do is a *hello world* program, you can check mine in the [`helloworld.c`](helloworld.c) file, but the least you need to run a **C** program is a `main()` function. Make, for example a file whose name ends in `.c`, such as `hello.c`
+
+```c
+#include <stdio.h> // Include information about standard library
+
+int main()         // Define a function named main
+{                  // Statements are enclosed in braces
+    printf("hello, world"); /* main calls library function printf
+                               to print this sequence of characters;
+                               \n represents the new line character 
+                            */
+}
+```
+
+> This example comes from The C Programming Language book
+
 Whether any operating system you are using or your text editor, you need a compiler, and you can find instructions about it in [Compiling](./documentation/compiling.md), but if you have it already installed, just use the `gcc` command
 
 ```bash
-gcc <file.c>
+gcc hello.c
+```
+
+It will generate an `a.out` file, to execute it use this command
+
+```bash
+./a.out
 ```
 
 ## Documentation
