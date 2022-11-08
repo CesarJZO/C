@@ -1,8 +1,6 @@
 # ~/C
 
-Here I'll document my journey through C language.  
-In [Documentation](#documentation) are the syntax, commands and other stuff that may need to be remembered.  
-In [Programs](#programs) are some tests for some exercises or other things.
+Here I'll document my journey through C language. In [*Documentation*](#documentation) is the syntax, commands and other stuff that may need to be remembered. In [*Programs*](#programs) are some tests for some exercises or other things.
 
 ## Getting started
 
@@ -13,13 +11,13 @@ The first think you'd like to do is a *hello world* program, you can check mine 
 
 int main()         // Define a function named main
 {                  // Statements are enclosed in braces
-    printf("hello, world\n"); /* main calls library function printf
-                                 to print this sequence of characters;
-                                 \n represents the new line character */
+                            // main calls library function printf
+  printf("hello, world\n"); // to print this sequence of characters;
+                            // \n represents the new line character
 }
 ```
 
-> This example comes from The C Programming Language book
+> This example comes from **The C Programming Language** book
 
 Whether any operating system you are using or your text editor, you need a compiler, and you can find instructions about it in [Compiling](./documentation/compiling.md), but if you have it already installed, just use the `gcc` command
 

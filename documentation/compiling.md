@@ -3,7 +3,7 @@
 - [Getting the compiler](#getting-the-compiler)
     - [Linux](#linux)
     - [Windows](#windows)
-    - [MacOs](#macos)
+    - [macOs](#macos)
 - [Checking the installation](#checking-the-installation)
 - [Compiling a program](#compiling-a-program)
 
@@ -43,7 +43,7 @@ In the *System Properties* window, click on `Environment Variables`, then **Path
 
 > After you have the compiler, check if the installation process was successful on [Checking the installation](#checking-the-installation)
 
-### MacOs
+### macOs
 
 I don't have a mac `:)`
 
