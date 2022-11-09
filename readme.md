@@ -9,7 +9,7 @@ The first think you'd like to do is a *hello world* program, you can check mine 
 ```c
 #include <stdio.h> // Include information about standard library
 
-int main()         // Define a function named main
+main()         // Define a function named main
 {                  // Statements are enclosed in braces
                             // main calls library function printf
   printf("hello, world\n"); // to print this sequence of characters;
