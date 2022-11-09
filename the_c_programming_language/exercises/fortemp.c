@@ -2,7 +2,7 @@
 
 /**
  * Print Farenheit-Celsius table
- * @note Exercise 1-5: Count from 300 degrees to 0
+ * @note Exercise 1-5. Count from 300 degrees to 0.
  */
 int main()
 {

@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * Exercise 1-4. Write a program to print the corresponding
+ * Celsius to Fahrenheit table.
+ */
 int main()
 {
     float fahr, celsius;
@@ -10,8 +14,7 @@ int main()
     step = 20;
 
     celsius = lower;
-    /* Exercise 1-3. Modify the temperature conversion program to print a
-       heading above the table */
+
     printf("%3s %6s\n", "C", "F");
     while (celsius <= upper)
     {

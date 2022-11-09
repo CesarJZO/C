@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * Exercise 1-3. Modify the temperature conversion program to
+ * print a heading above the table.
+ */
 int main()
 {
     float fahr, celsius;
@@ -10,8 +14,7 @@ int main()
     step = 20;
 
     fahr = lower;
-    /* Exercise 1-3. Modify the temperature conversion program to print a
-       heading above the table */
+    
     printf("%3s %6s\n", "F", "C");
     while (fahr <= upper)
     {
