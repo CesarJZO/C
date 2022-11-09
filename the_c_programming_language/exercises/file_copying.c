@@ -7,6 +7,6 @@ main()
 {
     int c;
 
-    while (c = getchar() != EOF)
-        printf("%d", c);
+    while (c = getchar() != EOF) // The same as c = (getchar() != EOF)
+        printf(c ? "is not end of file " : " is end of file ");
 }
